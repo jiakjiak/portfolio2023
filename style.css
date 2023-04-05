@@ -1,0 +1,80 @@
+body {
+  background-image: url(../src/images/banner2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 300vh;
+}
+/*test text -- to be deleted*/
+.cover {
+  background-color: aqua;
+}
+
+/*navbar*/
+.navbar {
+  transition: all 0.5s;
+  font-family: "Roboto", sans-serif;
+}
+.navbar-scrolled {
+  background-color: white;
+  box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.15);
+}
+
+/*banner text*/
+.wrapper {
+  height: 100vh;
+  display: inline-block;
+  justify-content: center;
+  margin: 250px 0 0 25px;
+}
+h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 70px;
+  max-width: 40ch;
+  text-align: center;
+  transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+
+span {
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+}
+
+span:nth-child(1) {
+  animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(2) {
+  animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(3) {
+  animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(4) {
+  animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(5) {
+  animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(6) {
+  animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
