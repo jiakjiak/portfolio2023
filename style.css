@@ -1,14 +1,102 @@
+/* || Color Palette*/
+:root {
+  --primary-color: #3f3232;
+  --secondary-color: #583c87;
+  --tertiary-color: #fff;
+  --box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.15);
+}
+
 body {
-  background-image: url(../src/images/banner2.jpg);
+  background-image: url(../src/images/banner2.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   height: 300vh;
 }
-/*test text -- to be deleted*/
-.cover {
-  background-color: aqua;
+
+h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 70px;
+  font-weight: 600px;
+  color: var(--primary-color);
+  max-width: 40ch;
+  text-align: center;
+  justify-content: center;
+  transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+
+h3,
+h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  font-weight: 300px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+h3 {
+  padding-top: 50px;
+}
+
+p {
+  font-family: "Cormorant Garamond", serif;
+  color: var(--primary-color);
+}
+
+ul {
+  font-style: italic;
+}
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+.img-thumbnail {
+  background: none;
+  border: none;
+  width: 75%;
+  height: auto;
+  border-radius: 25px;
+}
+
+.role {
+  padding: 10px 0 5px 25px;
+  font-size: 18px;
+  font-family: "Cormorant Garamond", serif;
+  color: var(--primary-color);
+}
+.date {
+  padding-left: 25px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: #207b4a;
+  font-style: italic;
+}
+
+.company {
+  padding-left: 25px;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  color: #2a8bed;
+}
+
+.cover-one {
+  background-color: var(--tertiary-color);
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+}
+
+.introduction {
+  font-weight: 500px;
+  font-size: 20px;
+  text-align: center;
+  margin: auto 0;
+  padding: 0 200px;
 }
 
 /*navbar*/
@@ -17,25 +105,18 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .navbar-scrolled {
-  background-color: white;
-  box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.15);
+  background-color: var(--tertiary-color);
+  box-shadow: var(--box-shadow);
 }
 
 /*banner text*/
 .wrapper {
-  height: 100vh;
+  height: 60vh;
   display: inline-block;
   justify-content: center;
-  margin: 250px 0 0 25px;
+  margin: 250px 0 0 90px;
 }
-h1 {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 70px;
-  max-width: 40ch;
-  text-align: center;
-  transform: scale(0.94);
-  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
-}
+
 @keyframes scale {
   100% {
     transform: scale(1);
@@ -66,10 +147,6 @@ span:nth-child(4) {
 
 span:nth-child(5) {
   animation: fade-in 0.8s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-
-span:nth-child(6) {
-  animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
 @keyframes fade-in {
