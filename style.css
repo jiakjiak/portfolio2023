@@ -56,6 +56,26 @@ ul {
   margin-right: auto;
   margin-left: auto;
 }
+
+.cover-four {
+  background-color: #e8c0b0;
+}
+.cover-three {
+  background-image: linear-gradient(
+      rgb(255, 255, 255),
+      rgba(225, 225, 225, 0.5)
+    ),
+    url(../src/images/cover_three.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 150vh;
+}
+
+.cover-two {
+  background-color: #fcfcf4;
+}
 .img-thumbnail {
   background: none;
   border: none;
@@ -65,13 +85,13 @@ ul {
 }
 
 .role {
-  padding: 10px 0 5px 25px;
+  padding: 10px 0 5px 10px;
   font-size: 18px;
   font-family: "Cormorant Garamond", serif;
   color: var(--primary-color);
 }
 .date {
-  padding-left: 25px;
+  padding-left: 10px;
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   color: #207b4a;
@@ -79,7 +99,7 @@ ul {
 }
 
 .company {
-  padding-left: 25px;
+  padding-left: 10px;
   font-size: 24px;
   font-family: "Roboto", sans-serif;
   color: #2a8bed;
