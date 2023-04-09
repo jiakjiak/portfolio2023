@@ -22,6 +22,10 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="/style.css" />
     <title>Jia Koh</title>
   </head>
@@ -53,10 +57,10 @@
           <div class="navbar-nav">
             <a class="nav-link" href="#">Home</a>
             <a class="nav-link" href="#">About</a>
-            <a class="nav-link" href="#">Projects</a>
-            <a class="nav-link" href="#">Awards</a>
-            <a class="nav-link" href="#">Articles</a>
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="/projects.html">Projects</a>
+            <a class="nav-link" href="/awards.html">Awards</a>
+            <a class="nav-link" href="/articles.html">Articles</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </div>
         </div>
       </div>
@@ -86,11 +90,11 @@
             <div class="col"></div>
             <div class="col-2">
               <div class="row">
-                <img
+                <a href="https://www.boeing.com/"><img
                   src="/src/images/boeing_logo.jpg"
                   class="img-thumbnail mx-auto d-block"
                   alt="boeing logo"
-                />
+                /></a>
               </div>
             </div>
             <div class="col-6">
@@ -135,11 +139,11 @@
             <div class="col"></div>
             <div class="col-2">
               <div class="row">
-                <img
+                <a href="https://www.emirates.com/us/english/"><img
                   src="/src/images/emirates_logo.jpg"
                   class="img-thumbnail mx-auto d-block"
                   alt="emirates logo"
-                />
+                /></a>
               </div>
             </div>
             <div class="col-6">
@@ -183,16 +187,155 @@
         </div>
       </div>
       <div class="cover-two pb-5">
-        <h3>Organizations I've made an impact</h3>
+        <h3 class="pb-3">Organizations I've made an impact</h3>
+        <div class="row mb-3">
+          <div class="col"></div>
+          <div class="col-1">
+            <a href="https://ww2.jeppesen.com/">
+            <img
+              src="/src/images/jeppesen_logo.jpg"
+              class="img-fluid rounded"
+              alt="jeppesen logo"
+            />
+        </a>
+            
+          </div>
+          <div class="col-1">
+            <a href="https://www.ralphlauren.com/"><img
+              src="/src/images/ralph_lauren_logo.jpg"
+              class="img-fluid rounded"
+              alt="ralph lauren logo"
+            /></a>
+          </div>
+          <div class="col-1">
+            <a href="https://www.jetstar.com/us/en/home?tab=1"><img
+              src="/src/images/jetstar_logo.jpg"
+              class="img-fluid rounded"
+              alt="jetstar logo"
+            /></a>
+            
+          </div>
+          <div class="col-1">
+            <a href="https://visitgreenland.com/"><img
+              src="/src/images/greenland_logo.png"
+              class="img-fluid rounded"
+              alt="visit greenland logo"
+            /></a>
+            
+          </div>
+          <div class="col-1">
+            <a href="https://femigrants.com/"><img
+              src="/src/images/femigrant_logo.jpg"
+              class="img-fluid rounded"
+              alt="femigrant logo"
+            /></a>
+          </div>
+
+          <div class="col-1">
+            <a href="https://www.crisistextline.org/"><img
+              src="/src/images/crisis_text_line_logo.jpg"
+              class="img-fluid rounded"
+              alt="crisis text line logo"
+            /></a>
+          </div>
+          <div class="col"></div>
+        </div>
+        <div class="row">
+          <div class="col"></div>
+          <div class="col-1">
+            <a href="https://www.lifung.com/"><img
+              src="/src/images/li&fung_logo.jpg"
+              class="img-fluid rounded"
+              alt="li & fung logo"
+            /></a>
+          </div>
+
+          <div class="col-1">
+            <a href="https://www.americanexpress.com/"><img
+              src="/src/images/amex_logo.jpg"
+              class="img-fluid rounded"
+              alt="amex logo"
+            /></a>
+          </div>
+          <div class="col-1">
+            <a href ="https://nunavuthelpline.ca/"><img
+              src="/src/images/nunavut_logo.jpg"
+              class="img-fluid rounded"
+              alt="nunavut logo"
+            /></a>
+          </div>
+
+          <div class="col"></div>
+        </div>
       </div>
-      <div class="cover-three pb-5">
+      <div class="cover-three">
         <h3>My system</h3>
+        <div class="introduction">
+          <p>
+          <ul class="system pt-3 pb-5">
+            <li>lifelong learning</li>
+            <li>proactive service delivery</li>
+            <li>always do the right thing</li>
+            <li>be curious</li>
+          </ul>
+          </p>
       </div>
-      <div class="cover-four pb-5">
-        <h3>"Lorem ipsum dolor sit amet consectetur adipisicing elite"</h3>
-        <p class="introduction">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      
+      <div class="cover-four pb-5" id="contact">
+        <h3 class="pb-2 mx-5">A good bowl of Thai Tom Yum soup<br/> will win me over.</h3>
+        <p class="introduction pb-3">
+          Let me help you solve your problem.
         </p>
+        <div class="row">
+        <div class="col"></div>
+        <div class="col-sm-4 ">
+          <form action="https://formspree.io/f/mdobzdyw" method="post">
+            <input
+              type="text"
+              name="Sender Name"
+              class="form-control mb-1"
+              id="senderName"
+              placeholder="Name"
+              style="font-family:Roboto, sans-serif;"
+              required
+            />
+            <input
+              type="email"
+              name="Sender Email"
+              class="form-control mb-1"
+              id="senderEmail"
+              placeholder="Email"
+              style="font-family:Roboto, sans-serif;"
+              required
+            />
+            <textarea
+              name="Message"
+              class="form-control mb-3"
+              id="SenderMessage"
+              rows="4"
+              placeholder="Message"
+              style="font-family:Roboto, sans-serif;"
+              required
+            ></textarea>
+            <div class="text-center">
+              <button type="submit" class="button rounded">
+                Send!
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="col"></div>
+      </div>
+      <!-- Section: External links -->
+      <section class="text-center ">
+        <!-- Footer -->
+        <footer class="mt-3">
+          <a
+            class="linkedin placeholder-wave"
+            href="https://www.linkedin.com/in/jiakoh/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
       </div>
     </div>
     <script src="src/script.js"></script>
