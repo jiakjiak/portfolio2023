@@ -6,6 +6,10 @@
   --box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.15);
 }
 
+html {
+  scroll-padding-top: 50px;
+}
+
 body {
   background-image: url(../src/images/banner2.png);
   background-size: cover;
@@ -13,6 +17,14 @@ body {
   background-position: center;
   background-attachment: fixed;
   height: 300vh;
+}
+
+body#articles {
+  background-image: url(../src/images/projects_background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 h1 {
@@ -58,6 +70,10 @@ ul {
   margin-left: auto;
 }
 
+.articles {
+  padding-top: 250px;
+}
+
 .linkedin {
   font-size: 40px;
   color: var(--secondary-color);
@@ -101,6 +117,14 @@ ul {
 .system {
   list-style-type: none;
 }
+
+.card {
+  padding-top: 12px;
+}
+.project video {
+  object-fit: contain;
+}
+
 .projects {
   text-align: center;
 }
@@ -185,6 +209,7 @@ ul {
   transition: all 0.5s;
   font-family: "Roboto", sans-serif;
 }
+
 .navbar-scrolled {
   background-color: var(--tertiary-color);
   box-shadow: var(--box-shadow);
