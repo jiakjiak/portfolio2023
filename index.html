@@ -17,11 +17,6 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-      crossorigin="anonymous"
-    ></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -31,7 +26,7 @@
   </head>
   <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-xl fixed-top navbar-scrolled">
+    <nav class="navbar navbar-expand-xl bg-transparent fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand ms-3" href="mailto:jia.koh@pm.me">
           <img
@@ -386,70 +381,56 @@
       </div>
       <div class="cover-four" id="projects">
         <h3 class="pb-3">Projects</h3>
-        <div class="container">
-          <div class="projects">
-            <div class="row pb-5">
-              <div class="col">
-                <div class="card rounded-0" style="width: 24rem">
-                  <video
-                    src="src/videos/project_management.mp4"
-                    autoplay
-                    loop
-                  ></video>
-                  <div class="card-body">
-                    <h5 class="card-title">Implementation of E-menu</h5>
-                    <p class="card-text">
-                      A digital menu initiative covering project initiation,
-                      planning, and execution, based on Agile methodology.
-                    </p>
-                    <a
-                      href="https://www.dropbox.com/sh/ogaqfu4zvbq6kbi/AACYPBrN3RQLnQh8LH5quHFea?dl=0"
-                      target="_blank"
-                      class="button rounded"
-                      >See it</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card rounded-0" style="width: 24rem">
-                  <video src="src/videos/dictionary.mp4" autoplay loop></video>
-                  <div class="card-body">
-                    <h5 class="card-title">An English Dictionary</h5>
-                    <p class="card-text">
-                      A responsive, space-themed English dictionary built with
-                      HTML, CSS, Bootstrap, and APIs on React.js.
-                    </p>
-                    <a
-                      href="https://space-themed-dictionary.netlify.app/"
-                      class="button rounded"
-                      >Explore it</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card rounded-0" style="width: 24rem">
-                  <video
-                    src="src/videos/weather_forecast.mp4"
-                    autoplay
-                    loop
-                  ></video>
-                  <div class="card-body">
-                    <h5 class="card-title">A Worldwide Weather Forecast</h5>
-                    <p class="card-text">
-                      A React.js five-day weather forecast responsive app that
-                      can search on any location in the world.
-                    </p>
-                    <a
-                      href="https://worldwide-weather-forecast.netlify.app/"
-                      target="_blank"
-                      class="button rounded"
-                      >Try it</a
-                    >
-                  </div>
-                </div>
-              </div>
+        <div class="card-group pb-5">
+          <div class="card">
+            <video
+              src="src/videos/project_management.mp4"
+              autoplay
+              loop
+            ></video>
+            <div class="card-body text-center">
+              <h5 class="card-title">Implementation of E-menu</h5>
+              <p class="card-text">
+                A digital menu initiative covering project initiation, planning,
+                and execution, based on Agile methodology.
+              </p>
+              <a
+                href="https://www.dropbox.com/sh/ogaqfu4zvbq6kbi/AACYPBrN3RQLnQh8LH5quHFea?dl=0"
+                target="_blank"
+                class="button rounded"
+                >See it</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <video src="src/videos/dictionary.mp4" autoplay loop></video>
+            <div class="card-body text-center">
+              <h5 class="card-title">An English Dictionary</h5>
+              <p class="card-text">
+                A responsive, space-themed English dictionary built with HTML,
+                CSS, Bootstrap, and APIs on React.js.
+              </p>
+              <a
+                href="https://space-themed-dictionary.netlify.app/"
+                class="button rounded"
+                >Explore it</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <video src="src/videos/weather_forecast.mp4" autoplay loop></video>
+            <div class="card-body">
+              <h5 class="card-title">A Worldwide Weather Forecast</h5>
+              <p class="card-text">
+                A React.js five-day weather forecast responsive app that can
+                search on any location in the world.
+              </p>
+              <a
+                href="https://worldwide-weather-forecast.netlify.app/"
+                target="_blank"
+                class="button rounded"
+                >Try it</a
+              >
             </div>
           </div>
         </div>
@@ -515,6 +496,12 @@
         </div>
       </div>
     </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="src/script.js"></script>
   </body>
 </html>
