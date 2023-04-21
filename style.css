@@ -292,3 +292,258 @@ ul {
     filter: blur(0);
   }
 }
+
+/* || Responsive to small media */
+@media (max-width: 576px) {
+  body {
+    background-position: top center left;
+    background-attachment: fixed;
+    height: 150vh;
+  }
+
+  h3,
+  h5 {
+    font-size: 40px;
+  }
+
+  .navigation {
+    display: none;
+  }
+  .hero {
+    color: var(--tertiary-color);
+    font-size: 40px;
+    justify-content: center;
+  }
+
+  .wrapper {
+    display: block;
+    margin: 300px auto 0;
+  }
+
+  .introduction {
+    padding: 10px 0 5px;
+  }
+
+  .img-thumbnail {
+    width: 200px;
+    height: auto;
+  }
+
+  .company,
+  .date,
+  .title {
+    text-align: center;
+  }
+
+  .role {
+    text-align: justify;
+    padding: 5px 10px;
+  }
+
+  .cover-two ul li .date {
+    font-size: 14px;
+  }
+
+  .cover-two ul li .company {
+    font-size: 18px;
+  }
+
+  .cover-two {
+    height: auto;
+  }
+
+  .logo {
+    padding: 10px;
+    border-radius: 25px !important;
+  }
+
+  .cover-four {
+    height: auto;
+  }
+
+  .system {
+    font-size: 18px;
+  }
+
+  .cover-six h3 {
+    padding: 0 10px;
+  }
+}
+
+/* Responsive to small-medium media */
+@media (min-width: 577px) and (max-width: 768px) {
+  body {
+    background-position: top center right;
+    height: 100vh;
+  }
+
+  h3,
+  h5 {
+    font-size: 40px;
+  }
+
+  .navigation {
+    display: none;
+  }
+  .hero {
+    color: var(--tertiary-color);
+    font-size: 60px;
+    justify-content: center;
+  }
+
+  .wrapper {
+    display: block;
+    margin: 250px auto 0;
+  }
+
+  .introduction {
+    padding: 10px 0 5px;
+  }
+
+  .img-thumbnail {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto !important;
+  }
+
+  .company,
+  .date,
+  .title {
+    text-align: center;
+  }
+
+  .role {
+    padding: 5px 10px;
+    text-align: justify;
+  }
+
+  .cover-two {
+    height: auto;
+  }
+
+  .cover-two ul li .date {
+    font-size: 18px;
+  }
+
+  .cover-two ul li .company {
+    font-size: 22px;
+  }
+
+  .logo {
+    padding: 10px;
+    border-radius: 25px !important;
+    width: 120px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .cover-four {
+    height: auto;
+  }
+
+  .cover-five h5 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  h3,
+  h5 {
+    font-size: 50px;
+  }
+
+  .hero {
+    color: var(--tertiary-color);
+    font-size: 70px;
+    justify-content: center;
+  }
+
+  .introduction {
+    padding: 10px 0 5px;
+  }
+
+  .img-thumbnail {
+    width: 100px;
+    height: auto;
+    display: block !important ;
+    margin: 0 auto;
+  }
+
+  .role {
+    padding: 5px 10px;
+    text-align: justify;
+  }
+
+  .company,
+  .date,
+  .title {
+    text-align: center;
+  }
+
+  .cover-two {
+    height: auto;
+  }
+
+  .cover-two ul li .date {
+    font-size: 18px;
+  }
+
+  .cover-two ul li .company {
+    font-size: 22px;
+  }
+
+  .logo {
+    padding: 10px;
+    border-radius: 25px !important;
+    width: 120px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .cover-two {
+    height: auto;
+  }
+
+  .cover-four {
+    height: auto;
+  }
+
+  .cover-five h5 {
+    font-size: 20px;
+  }
+}
+
+/* Responsive to large media */
+@media (min-width: 993px) {
+  .introduction {
+    padding: 10px 0 5px;
+  }
+  .img-thumbnail {
+    width: 100px;
+    height: auto;
+    display: block !important ;
+    margin: 0 auto;
+  }
+
+  .company,
+  .date,
+  .title {
+    text-align: center;
+  }
+
+  .role {
+    padding: 5px 10px;
+    text-align: justify;
+  }
+
+  .cover-two {
+    height: auto;
+  }
+
+  .cover-four {
+    height: 85vh;
+  }
+}
