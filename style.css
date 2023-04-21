@@ -293,7 +293,7 @@ ul {
   }
 }
 
-/* || Responsive to small media */
+/* || Responsive to extra-small media */
 @media (max-width: 576px) {
   body {
     background-position: top center left;
@@ -322,6 +322,7 @@ ul {
 
   .introduction {
     padding: 10px 0 5px;
+    text-align: justify;
   }
 
   .img-thumbnail {
@@ -398,6 +399,7 @@ ul {
 
   .introduction {
     padding: 10px 0 5px;
+    text-align: justify;
   }
 
   .img-thumbnail {
@@ -448,6 +450,7 @@ ul {
   }
 }
 
+/* Responsive to medium-large media */
 @media (min-width: 769px) and (max-width: 992px) {
   h3,
   h5 {
