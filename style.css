@@ -293,19 +293,6 @@ ul {
   }
 }
 
-.hidden {
-  opacity: 0;
-  transition: all 1s;
-  filter: blur(5px);
-  transform: translateX(-100%);
-}
-
-.show {
-  opacity: 1;
-  filter: blur(0);
-  transform: translateX(0);
-}
-
 .card {
   display: flex;
 }
@@ -321,6 +308,7 @@ ul {
 .card:nth-child(3) {
   transition-delay: 600ms;
 }
+
 /* || Responsive to extra-small media */
 @media (max-width: 576px) {
   body {
