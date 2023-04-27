@@ -296,9 +296,10 @@ ul {
 /* || Responsive to extra-small media */
 @media (max-width: 576px) {
   body {
-    background-position: top center left;
+    background-image: url(../src/images/banner3.png);
+    background-position: bottom left;
     background-attachment: fixed;
-    height: 150vh;
+    height: 60vh;
   }
 
   h3,
@@ -313,6 +314,7 @@ ul {
     color: var(--tertiary-color);
     font-size: 40px;
     justify-content: center;
+    padding-top: 90px auto;
   }
 
   .wrapper {
@@ -437,8 +439,10 @@ ul {
 /* Responsive to small-medium media */
 @media (min-width: 577px) and (max-width: 768px) {
   body {
-    background-position: top center right;
-    height: 100vh;
+    background-image: url(../src/images/banner2.png);
+    background-position: top center left;
+    background-attachment: fixed;
+    height: 60vh;
   }
 
   h3,
@@ -453,6 +457,7 @@ ul {
     color: var(--tertiary-color);
     font-size: 60px;
     justify-content: center;
+    padding-top: 100px;
   }
 
   .wrapper {
@@ -504,7 +509,7 @@ ul {
   }
 
   .cover-four {
-    height: auto;
+    height: 45vh;
   }
 
   .cover-five h5 {
@@ -573,7 +578,7 @@ ul {
   }
 
   .cover-four {
-    height: auto;
+    height: 50vh;
   }
 
   .cover-five h5 {
@@ -623,10 +628,12 @@ ul {
 /* || Retina Screens */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
   body {
-    background-image: url(../src/images/banner2.png);
+    background-image: url(../src/images/banner3.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: bottom left;
+    height: 80vh;
   }
 
   .hero {
@@ -636,7 +643,7 @@ ul {
   }
 
   h1 {
-    padding: 400px 100px;
+    padding: 800px 0 0 350px;
   }
 
   .cover-four {
