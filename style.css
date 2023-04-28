@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background-image: url(../src/images/banner2.png);
+  background-image: url(../src/images/banner2.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -148,12 +148,11 @@ ul {
       rgb(255, 255, 255),
       rgba(225, 225, 225, 0.5)
     ),
-    url(../src/images/cover_four.jpg);
+    url(../src/images/cover_four.avif);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  height: 80vh;
 }
 
 .cover-three {
@@ -178,12 +177,12 @@ ul {
       rgb(255, 255, 255),
       rgba(225, 225, 225, 0.5)
     ),
-    url(../src/images/cover_two.jpg);
+    url(../src/images/cover_two.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  height: 65vh;
+  height: auto;
   text-align: center;
 }
 
@@ -324,7 +323,7 @@ ul {
 /* || Responsive to extra-small media */
 @media (max-width: 576px) {
   body {
-    background-image: url(../src/images/banner4.png);
+    background-image: url(../src/images/banner4.webp);
     background-position: bottom left;
     background-attachment: fixed;
     height: 60vh;
@@ -403,7 +402,7 @@ ul {
 /* Responsive to small-medium media */
 @media (min-width: 577px) and (max-width: 768px) {
   body {
-    background-image: url(../src/images/banner2.png);
+    background-image: url(../src/images/banner2.webp);
     background-position: top center left;
     background-attachment: fixed;
     height: 60vh;
@@ -576,10 +575,6 @@ ul {
 
   .cover-two {
     height: auto;
-  }
-
-  .cover-four {
-    height: 85vh;
   }
 }
 
