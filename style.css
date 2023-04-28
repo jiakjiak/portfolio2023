@@ -324,7 +324,7 @@ ul {
 /* || Responsive to extra-small media */
 @media (max-width: 576px) {
   body {
-    background-image: url(../src/images/banner3.png);
+    background-image: url(../src/images/banner4.png);
     background-position: bottom left;
     background-attachment: fixed;
     height: 60vh;
@@ -592,7 +592,7 @@ ul {
 /* || Retina Screens */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
   body {
-    background-image: url(../src/images/banner3.png);
+    background-image: url(../src/images/banner4.png);
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
