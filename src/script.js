@@ -22,3 +22,16 @@ window.onload = function () {
     .to(firstBg, 0.2, { scaleX: 0 })
     .to(secBg, 0.2, { scaleX: 0 });
 };
+
+//scroll animation//
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    console.log(entry);
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+    }
+  });
+});
+
+const hiddenElements = document.querySelectorAll(".hidden");
+hiddenElements.forEach((el) => observer.observe(el));
