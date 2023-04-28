@@ -588,29 +588,3 @@ ul {
     transition: none;
   }
 }
-
-/* || Retina Screens */
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
-  body {
-    background-image: url(../src/images/banner4.png);
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: bottom left;
-    height: 50vh;
-  }
-
-  .hero {
-    color: var(--tertiary-color);
-    font-size: 70px;
-    justify-content: center;
-  }
-
-  h1 {
-    padding: 800px 0 0 350px;
-  }
-
-  .cover-four {
-    height: fit-content;
-  }
-}
