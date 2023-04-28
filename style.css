@@ -153,6 +153,7 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  height: fit-content;
 }
 
 .cover-three {
@@ -387,7 +388,7 @@ ul {
   }
 
   .cover-four {
-    height: auto;
+    height: fit-content;
   }
 
   .system {
@@ -472,7 +473,7 @@ ul {
   }
 
   .cover-four {
-    height: 45vh;
+    height: fit-content;
   }
 
   .cover-five h5 {
@@ -541,7 +542,7 @@ ul {
   }
 
   .cover-four {
-    height: 50vh;
+    height: fit-content;
   }
 
   .cover-five h5 {
