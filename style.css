@@ -325,9 +325,9 @@ ul {
 @media (max-width: 576px) {
   body {
     background-image: url(../src/images/banner4.webp);
-    background-position: bottom left;
+    background-position: calc(50% + 25px) bottom;
     background-attachment: fixed;
-    height: 60vh;
+    min-height: 100vh;
   }
 
   h3,
@@ -346,10 +346,12 @@ ul {
   }
 
   .wrapper {
-    display: block;
-    margin: 300px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
   }
-
   .introduction {
     padding: 10px 0 5px;
   }
@@ -427,6 +429,7 @@ ul {
   .wrapper {
     display: block;
     margin: 250px auto 0;
+    height: 60vh;
   }
 
   .introduction {
