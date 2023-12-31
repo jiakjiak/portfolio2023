@@ -402,6 +402,16 @@ ul {
   }
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 3),
+  only screen and (min--moz-device-pixel-ratio: 3),
+  only screen and (-o-min-device-pixel-ratio: 3/1),
+  only screen and (min-device-pixel-ratio: 3) {
+  body {
+    background-attachment: unset;
+    height: 100vh;
+  }
+}
+
 /* Responsive to small-medium media */
 @media (min-width: 577px) and (max-width: 768px) {
   body {
